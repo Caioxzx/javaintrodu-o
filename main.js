@@ -1,5 +1,6 @@
-function playSound(audioSrc) {
-    var audio = document.getElementById("meuAudio");
-    audio.src = audioSrc;
-    audio.play();
+function playSound(soundFile) {
+  var audio = new Audio(soundFile);
+  audio.play();
 }
+
+playSound('pom.mp3');
