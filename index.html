@@ -14,12 +14,37 @@
     <link rel="icon" type="image/png" href="images/bateria.png">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/estilos.css">
+  <style>
+    /* Estilize o botão */
+  .botao-estilizado {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #3498db;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      margin: 10px;
+      cursor: pointer;
+    }
 
+    /* Estilize o botão quando o mouse estiver sobre ele */
+  .botao-estilizado:hover {
+      background-color: #2980b9;
+    }
+  </style>
 </head>
 <body>
 
-    <h1 style="font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 24px; color: #333; text-align: center;">Midi (Musical Instrument Digital Interface) é uma linguagem – um conjunto de códigos padronizados que representam parâmetros musicais, como tom, dinâmica, andamento e muito mais.</h1>
-
+    <h1 style="font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 24px; color: #fffffff; text-align: center;">Midi (Musical Instrument Digital Interface) é uma linguagem – um conjunto de códigos padronizados que representam parâmetros musicais, como tom, dinâmica, andamento e muito mais.
+    </h1>
+<h2 style="font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 24px; color: #FF0000; text-align: center;">
+<button class="botao-estilizado" <button><a href="pag2.html">
+      NOVOS SONS   
+    </button>
+</h2>
     <section class="teclado">
       <button onclick="playSound('pom.mp3')" class="tecla tecla_pom">Pom</button>
       <button onclick="playSound('clap.mp3')" class="tecla tecla_clap">Clap</button>
